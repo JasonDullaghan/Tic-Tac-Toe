@@ -1,0 +1,83 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(MinecraftBold-nMK1.otf);
+}
+
+body {
+  font-family: myFirstFont;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+:root {
+  --grid-cols: 16;
+  --grid-rows: 16;
+}
+
+.selected {
+  background-color: #555555;
+}
+
+#board {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  margin: 2rem auto;
+  border: 10px solid rgb(46, 46, 46);
+  border-radius: 10px;
+}
+#wrapper {
+  padding-top: 1%;
+}
+
+#board div {
+  border: 1px solid #ddd;
+  text-align: center;
+  height: 198px;
+  
+}
+
+#board div h1{
+ padding-top: 20%;
+  
+}
+
+#board div:hover {
+  background-color: #ebebeb;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid #555555;
+}
+
+button:hover {
+  background-color: #555555;
+  
+  color: white;
+}
