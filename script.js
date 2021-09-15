@@ -45,7 +45,7 @@ function createAndModifyDivs() {
             this.innerHTML === "<h1>" + "o" + "</h1>" ||
             this.innerHTML === "<h1>" + "x" + "</h1>"
           ) {
-            alert("FUCKing retard");
+            alert("dummy");
             this.innerHTML = "<h1>" + "o" + "</h1>";
             return;
           }
